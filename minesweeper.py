@@ -264,9 +264,7 @@ class MinesweeperAI():
                     elif len(newSet) == 0:
                         continue
                     else:
-                        print("adding sentence:", end=" ")
                         sent = Sentence(newSet, newCount)
-                        print(sent)
                         new_sentences.append(sent)
         self.knowledge.extend(new_sentences)
 
